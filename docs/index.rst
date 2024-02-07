@@ -34,6 +34,12 @@ F5のオフィシャルなドキュメントはこちらにございます。
    UDF以外での環境で利用される場合は、IPアドレス等は環境に合わせて読み替えてください。
 
 
+.. image:: https://yt3.googleusercontent.com/ytc/AIf8zZTSSreKHhtWnLStTGMbNRVgJoKet228FEo3WPKgFg=s176-c-k-c0x00ffffff-no-rj
+    :alt: IMAGE ALT TEXT HERE
+    :target: https://www.youtube.com/watch?v=vM-iIVJD9UM
+Share
+
+
 .. toctree::
    :numbered:
    :titlesonly:
