@@ -34,6 +34,12 @@ F5のオフィシャルなドキュメントはこちらにございます。
    UDF以外での環境で利用される場合は、IPアドレス等は環境に合わせて読み替えてください。
 
 
+.. video:: _static/Chatbot.mp4
+   :width: 500
+   :height: 300
+   :autoplay:
+   :nocontrols:
+
 .. toctree::
    :numbered:
    :titlesonly:
