@@ -37,8 +37,7 @@ F5のオフィシャルなドキュメントはこちらにございます。
 .. video:: _static/Chatbot.mp4
    :width: 500
    :height: 300
-   :autoplay:
-   :nocontrols:
+
 
 
 .. toctree::
