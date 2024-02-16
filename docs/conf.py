@@ -33,6 +33,7 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.extlinks',
     'sphinx.ext.graphviz',
+    'sphinxcontrib.video'
     'recommonmark',
 ]
 
