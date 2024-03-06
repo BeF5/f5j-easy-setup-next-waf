@@ -29,6 +29,18 @@ F5のオフィシャルなドキュメントはこちらにございます。
 - 本ガイドでは、F5 Japanにおけるハンズオントレーニングのコースでも利用しております。
 
 
+
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/watch?v=jwXQxjXWGIg" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+
+
+
+
 .. note::
    本ドキュメントの手順は、F5 UDF (Universal Demonstration Framework)というラボ環境での実施を前提に書かれています。
    UDF以外での環境で利用される場合は、IPアドレス等は環境に合わせて読み替えてください。
