@@ -31,12 +31,6 @@ F5のオフィシャルなドキュメントはこちらにございます。
 
 
 .. figure:: _static/sample.pdf
-   :download:`here </sample.pdf>`
-
-
-
-.. image:: _static/Picture1.png
-   :download: _static/sample.pdf
 
 
 
