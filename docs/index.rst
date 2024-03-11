@@ -30,8 +30,10 @@ F5のオフィシャルなドキュメントはこちらにございます。
 
 
 
-.. figure:: _static/sample.pdf
 
+.. important:: View the agile course on scrum basics
+
+- View `these slides to dive deeper into Agile Basics <../_static/sample.pdf>`_. 
 
 
 .. note::
