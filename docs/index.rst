@@ -30,12 +30,6 @@ F5のオフィシャルなドキュメントはこちらにございます。
 
 
 
-
-.. important:: View the agile course on scrum basics
-
-- View `these slides to dive deeper into Agile Basics <_static/sample.pdf>`_. 
-
-
 .. note::
    本ドキュメントの手順は、F5 UDF (Universal Demonstration Framework)というラボ環境での実施を前提に書かれています。
    UDF以外での環境で利用される場合は、IPアドレス等は環境に合わせて読み替えてください。
