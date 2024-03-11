@@ -30,7 +30,7 @@ F5のオフィシャルなドキュメントはこちらにございます。
 
 
 
-.. figure:: _static/Picture1.png
+.. figure:: _static/sample.pdf
 
 
 
