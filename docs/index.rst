@@ -29,6 +29,16 @@ F5のオフィシャルなドキュメントはこちらにございます。
 - 本ガイドでは、F5 Japanにおけるハンズオントレーニングのコースでも利用しております。
 
 
+
+.. figure:: _static/sample.pdf
+
+
+
+.. image:: _static/Picture1.png
+   :download: _static/sample.pdf
+
+
+
 .. note::
    本ドキュメントの手順は、F5 UDF (Universal Demonstration Framework)というラボ環境での実施を前提に書かれています。
    UDF以外での環境で利用される場合は、IPアドレス等は環境に合わせて読み替えてください。
