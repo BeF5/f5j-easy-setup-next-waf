@@ -4,14 +4,14 @@ WAFポリシーを作成してアプリケーションへ適用
 CM画面左上部のworkspaceから、”Security”を選択します。
 
    .. image:: images/Picture1.png
-      :scale: 60%
+      :scale: 30%
       :align: center
    |
 
 画面左側で"WAF" > "Policies"を選択、"Create"をクリックしてポリシーを新規作成します。
 
    .. image:: images/Picture2.png
-      :scale: 60%
+      :scale: 30%
       :align: center
    |
 
@@ -29,43 +29,43 @@ CM画面左上部のworkspaceから、”Security”を選択します。
 - “Save” をクリックします
 
    .. image:: images/Picture3.png
-      :scale: 60%
+      :scale: 45%
       :align: center
    |
 
 作成されたWAFポリシーを選択、”General Settings”から”Log Events”を”All”にし、”Save”をクリックします。
 
    .. image:: images/Picture4.png
-      :scale: 60%
+      :scale: 30%
       :align: center
    |
 
    .. image:: images/Picture5.png
-      :scale: 60%
+      :scale: 30%
       :align: center
    |
 
 "Attack Signatures"のページを選択し、"Enforce" > "Enforce all Staged Signatures"でシグネチャのstagingを解除します。
 
    .. image:: images/Picture6.png
-      :scale: 60%
+      :scale: 30%
       :align: center
    |
 
    .. image:: images/Picture7.png
-      :scale: 60%
+      :scale: 30%
       :align: center
    |
 
 CM画面左上部のworkspaceから、"Applications"へ戻ります。先ほど作成したアプリケーション(HTTP-DVWA)を選択し、"Edit"します。
 
    .. image:: images/Picture8.png
-      :scale: 60%
+      :scale: 30%
       :align: center
    |
 
    .. image:: images/Picture9.png
-      :scale: 60%
+      :scale: 30%
       :align: center
    |
 
@@ -73,7 +73,7 @@ CM画面左上部のworkspaceから、"Applications"へ戻ります。先ほど�
 “Security Policies”の編集マークをクリックします。
 
    .. image:: images/Picture10.png
-      :scale: 60%
+      :scale: 30%
       :align: center
    |
 
@@ -87,12 +87,12 @@ CM画面左上部のworkspaceから、"Applications"へ戻ります。先ほど�
 - “Review & Deploy” > “Validate All” > “Deploy Changes” でWAFポリシーをアプリケーションへ適用します
 
    .. image:: images/Picture11.png
-      :scale: 60%
+      :scale: 30%
       :align: center
    |
 
    .. image:: images/Picture12.png
-      :scale: 60%
+      :scale: 30%
       :align: center
    |
 
