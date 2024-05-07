@@ -5,5 +5,5 @@ BIG-IP Next WAFハンズオンのシナリオでは以下のネットワーク�
 
 
 .. figure:: NETWORK.png
-   :scale: 50%
+   :scale: 90%
    :align: center
