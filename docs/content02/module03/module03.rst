@@ -38,13 +38,11 @@ CM画面左上部のworkspaceから、”Security”を選択します。
 
 
    .. figure:: images/Picture5.png
-      :scale: 50%
       :align: center
    |
 
 また、Event Logsからはリクエストログを確認出来ます。
 
    .. figure:: images/Picture6.png
-      :scale: 50%
       :align: center
    |
