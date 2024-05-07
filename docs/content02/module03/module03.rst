@@ -8,7 +8,7 @@ CM画面左上部のworkspaceから、”Security”を選択します。
 “WAF Dashboards”からセキュリティモニタリング情報を確認します。
 “Polices”からポリシーごとにセキュリティイベントに対してフィルターかけます。
 
-   .. image:: images/Picture1.png
+  .. figure:: images/Picture1.png
       :scale: 30%
       :align: center
    |
