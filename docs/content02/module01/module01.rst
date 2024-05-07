@@ -65,27 +65,38 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
    - **DVWA-VS**
 - Pool:
    - **dvwa_pool**　(先ほど作成されましたpoolを選択)
+- **“Review & Deploy”** をクリック
 
    .. image:: images/Picture7.png
       :scale: 40%
       :align: center
    |       
 
-ログインすると次のようなホーム画面から"Manage Applications"をクリックします。
+次の画面から"Start Adding"をクリック、“big01.f5lab.local” のチェックボックスをチェックしてから"Add to List"をクリックします。
 
    .. image:: images/Picture8.png
       :scale: 40%
       :align: center
    |       
 
-ログインすると次のようなホーム画面から"Manage Applications"をクリックします。
+次のDeploy画面で、Virtual ServerのIPとPool memberを設定します。
+
+- Virtual Address:
+   - **10.1.10.100**
+- Membersの下矢印を展開し、 “+Pool Members” をクリック
 
    .. image:: images/Picture9.png
       :scale: 40%
       :align: center
    |       
 
-ログインすると次のようなホーム画面から"Manage Applications"をクリックします。
+“+Add Row” を２回クリックpool memberを作成します。
+
+- Name:
+   - **dvwa_server **
+- IP Address:
+   - **10.1.20.101**
+- 入力後、 ”Save” をクリック
 
    .. image:: images/Picture10.png
       :scale: 40%
