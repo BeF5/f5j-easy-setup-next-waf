@@ -4,6 +4,6 @@
 BIG-IP Next WAFハンズオンのシナリオでは以下のネットワーク環境を構築します。
 
 
-.. figure:: images/c2-m1-1.png
-   :scale: 35%
+.. figure:: NETWORK.png
+   :scale: 50%
    :align: center
