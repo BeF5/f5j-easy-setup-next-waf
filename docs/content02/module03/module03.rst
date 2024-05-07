@@ -17,8 +17,8 @@ CM画面左上部のworkspaceから、”Security”を選択します。
 (クライアントPCのブラウザ上のリスポンスから表記されたSupportIDをlog中のSupportIDを比較することでイベントログを特定出来ます。) 
 
 
-   .. image:: images/Picture2.png
-      :scale: 30%
+   .. figure:: images/Picture2.png
+      :scale: 20%
       :align: center
    |
 
@@ -37,14 +37,14 @@ CM画面左上部のworkspaceから、”Security”を選択します。
 “Save” > “Deploy” でシグネチャのoverrideを適用して、クライアントから再度SQLインジェクション攻撃をする際、リクエストはrejectされません。
 
 
-   .. image:: images/Picture5.png
-      :scale: 30%
+   .. figure:: images/Picture5.png
+      :scale: 50%
       :align: center
    |
 
 また、Event Logsからはリクエストログを確認出来ます。
 
-   .. image:: images/Picture6.png
-      :scale: 30%
+   .. figure:: images/Picture6.png
+      :scale: 50%
       :align: center
    |
