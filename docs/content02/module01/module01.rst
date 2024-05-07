@@ -103,7 +103,7 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
       :align: center
    |       
 
-設定内容に問題ないかを適用前に"Validate All"で検証し、"Deploy Changes"をクリックして本番適用します。
+設定内容に問題ないかを適用前に"Validate All"で検証し、エラーがなければ"Deploy Changes"をクリックして本番適用します。
 
    .. image:: images/Picture11.png
       :scale: 40%
@@ -123,6 +123,20 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
    |       
 
 
+UDF環境からWindowsクライアントを起動します。
+   - ユーザー名/パスワード:
+   - **user/user**
+
+   .. image:: images/Picture14.png
+      :scale: 40%
+      :align: center
+   |   
+
+Chromeブラウザを開き、https://10.1.10.100/DVWA/login.php にアクセスします。
+Username: admin、Password: password でログインし、SQL Injection にアクセスし、User ID に 'or 1=1 # と入力し、SQLインジェクション攻撃をします。(本ガイドからコマンドはコピーしないで下さい。シングルクォーテーションに注意してタイプして下さい。)
 
 
-
+   .. image:: images/Picture15.png
+      :scale: 40%
+      :align: center
+   |   
