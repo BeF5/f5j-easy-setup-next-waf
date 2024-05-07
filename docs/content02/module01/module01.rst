@@ -103,21 +103,19 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
       :align: center
    |       
 
-ログインすると次のようなホーム画面から"Manage Applications"をクリックします。
+設定内容に問題ないかを適用前に"Validate All"で検証し、"Deploy Changes"をクリックして本番適用します。
 
    .. image:: images/Picture11.png
       :scale: 40%
       :align: center
    |       
 
-ログインすると次のようなホーム画面から"Manage Applications"をクリックします。
-
    .. image:: images/Picture12.png
       :scale: 40%
       :align: center
    |       
 
-ログインすると次のようなホーム画面から"Manage Applications"をクリックします。
+デプロイ完了後、Dashboardから作成されたアプリケーション"HTTP-DVWA"を確認出来ます。
 
    .. image:: images/Picture13.png
       :scale: 40%
