@@ -20,6 +20,6 @@
 
 
    .. image:: images/Picture3.png
-      :scale: 60%
+      :scale: 40%
       :align: center
    |       
