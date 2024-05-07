@@ -26,6 +26,11 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
 
 “Add Application”をクリックして、新規アプリケーション作成します。
 
+   .. image:: images/Picture4.png
+      :scale: 40%
+      :align: center
+   |       
+
 - Application Service Name:
    - **HTTP-DVWA**　（任意の名前）
 - What kind of Application:
@@ -33,29 +38,33 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
 - **“Start Creating”** を二回クリック
 
 
-ログインすると次のようなホーム画面から"Manage Applications"をクリックします。
-
-   .. image:: images/Picture4.png
-      :scale: 40%
-      :align: center
-   |       
-
-
-ログインすると次のようなホーム画面から"Manage Applications"をクリックします。
-
    .. image:: images/Picture5.png
       :scale: 40%
       :align: center
    |       
 
-ログインすると次のようなホーム画面から"Manage Applications"をクリックします。
+“Pools”を選択し、“Create”をクリックしてpoolの名前とポート番号を入力します。
+
+- Pool Name:
+   - **dvwa_pool**
+- Server Port:
+   - **80**
+- Load-Balancing Mode:
+   - **round-robin**
+- Monitor Type:
+   - **http**
 
    .. image:: images/Picture6.png
       :scale: 40%
       :align: center
    |       
 
-ログインすると次のようなホーム画面から"Manage Applications"をクリックします。
+"Virtual Servers"のtabに戻り、以下内容を入力します。
+
+- Virtual Server Name:
+   - **DVWA-VS**
+- Pool:
+   - **dvwa_pool**　(先ほど作成されましたpoolを選択)
 
    .. image:: images/Picture7.png
       :scale: 40%
