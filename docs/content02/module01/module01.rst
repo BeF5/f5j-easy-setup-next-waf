@@ -4,7 +4,7 @@
 UDF画面上部タブの"DEPLOYMENT"をクリックし、BIG-IP Next Central Managerインスタンスの"ACCESS" > "GUI" を選択します。
 
    .. image:: images/Picture01.png
-      :scale: 60%
+      :scale: 80%
       :align: center
    |
 
@@ -13,21 +13,21 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
    - **admin/Welcome123!**
 
    .. image:: images/Picture2.png
-      :scale: 60%
+      :scale: 90%
       :align: center
    |       
 
 ログインすると次のようなホーム画面から"Manage Applications"をクリックします。
 
    .. image:: images/Picture3.png
-      :scale: 40%
+      :scale: 25%
       :align: center
    |       
 
 “Add Application”をクリックして、新規アプリケーション作成します。
 
    .. image:: images/Picture4.png
-      :scale: 40%
+      :scale: 25%
       :align: center
    |       
 
@@ -39,7 +39,7 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
 
 
    .. image:: images/Picture5.png
-      :scale: 40%
+      :scale: 30%
       :align: center
    |       
 
@@ -55,7 +55,7 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
    - **http**
 
    .. image:: images/Picture6.png
-      :scale: 40%
+      :scale: 20%
       :align: center
    |       
 
@@ -68,14 +68,14 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
 - **“Review & Deploy”** をクリック
 
    .. image:: images/Picture7.png
-      :scale: 40%
+      :scale: 20%
       :align: center
    |       
 
 次の画面から"Start Adding"をクリック、“big01.f5lab.local” のチェックボックスをチェックしてから"Add to List"をクリックします。
 
    .. image:: images/Picture8.png
-      :scale: 40%
+      :scale: 30%
       :align: center
    |       
 
@@ -86,7 +86,7 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
 - Membersの下矢印を展開し、 “+Pool Members” をクリック
 
    .. image:: images/Picture9.png
-      :scale: 40%
+      :scale: 20%
       :align: center
    |       
 
@@ -99,26 +99,26 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
 - 入力後、 ”Save” をクリック
 
    .. image:: images/Picture10.png
-      :scale: 40%
+      :scale: 20%
       :align: center
    |       
 
 設定内容に問題ないかを適用前に"Validate All"で検証し、エラーがなければ"Deploy Changes"をクリックして本番適用します。
 
    .. image:: images/Picture11.png
-      :scale: 40%
+      :scale: 20%
       :align: center
    |       
 
    .. image:: images/Picture12.png
-      :scale: 40%
+      :scale: 80%
       :align: center
    |       
 
 デプロイ完了後、Dashboardから作成されたアプリケーション"HTTP-DVWA"を確認出来ます。
 
    .. image:: images/Picture13.png
-      :scale: 40%
+      :scale: 20%
       :align: center
    |       
 
@@ -128,7 +128,6 @@ UDF環境からWindowsクライアントを起動します。
    - **user/user**
 
    .. image:: images/Picture14.png
-      :scale: 40%
       :align: center
    |   
 
@@ -137,6 +136,5 @@ Username: admin、Password: password でログインし、SQL Injection にア�
 
 
    .. image:: images/Picture15.png
-      :scale: 40%
       :align: center
    |   
