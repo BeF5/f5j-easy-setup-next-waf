@@ -41,7 +41,7 @@ WAF > Live Updates > Attack Signaturesを選択し、リフレッシュマーク
 以上AutomaticallyアップデートはAttack Signatures, Bot Defense, Threat Campaignsごとで設定されます。
 必要に応じて該当tabを選択する上、設定してください。
 
-   .. image:: images/Picture5.png
+   .. image:: images/Picture6.png
       :scale: 30%
       :align: center
    |
