@@ -6,12 +6,12 @@ WAF > Live Updates > Attack Signaturesを選択し、リフレッシュマーク
 
 
    .. image:: images/Picture1.png
-      :scale: 30%
+      :scale: 20%
       :align: center
    |
 
    .. image:: images/Picture2.png
-      :scale: 30%
+      :scale: 20%
       :align: center
    |
 
@@ -19,7 +19,7 @@ WAF > Live Updates > Attack Signaturesを選択し、リフレッシュマーク
 最新のファイルネームを選択し、”Install”をクリックしてアップデートを適用します。
 
    .. image:: images/Picture3.png
-      :scale: 30%
+      :scale: 20%
       :align: center
    |
 
@@ -29,7 +29,7 @@ WAF > Live Updates > Attack Signaturesを選択し、リフレッシュマーク
 また、Settings で Install Latest Update Automaticallyの設定をEnabled (Real Time)へ変更すると、手動で最新のアップデートファイルを取得することが不要で、アップデートファイルが定期的にダウンロードされます。
 
    .. image:: images/Picture4.png
-      :scale: 30%
+      :scale: 15%
       :align: center
    |
 
@@ -42,7 +42,7 @@ WAF > Live Updates > Attack Signaturesを選択し、リフレッシュマーク
 必要に応じて該当tabを選択する上、設定してください。
 
    .. image:: images/Picture6.png
-      :scale: 30%
+      :scale: 20%
       :align: center
    |
 
