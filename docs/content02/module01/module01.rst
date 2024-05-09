@@ -20,14 +20,14 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
 ログインすると次のようなホーム画面から"Manage Applications"をクリックします。
 
    .. image:: images/Picture3.png
-      :scale: 25%
+      :scale: 15%
       :align: center
    |       
 
 “Add Application”をクリックして、新規アプリケーション作成します。
 
    .. image:: images/Picture4.png
-      :scale: 25%
+      :scale: 15%
       :align: center
    |       
 
@@ -86,7 +86,7 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
 - Membersの下矢印を展開し、 “+Pool Members” をクリック
 
    .. image:: images/Picture9.png
-      :scale: 20%
+      :scale: 15%
       :align: center
    |       
 
