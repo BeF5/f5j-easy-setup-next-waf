@@ -8,7 +8,7 @@ CM画面左上部のworkspaceから、"Security"を選択します。 WAF > WAF 
 “Advanced View”をEnableします。
 
    .. image:: images/Picture1.png
-      :scale: 15%
+      :scale: 20%
       :align: center
    |
 
