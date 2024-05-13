@@ -18,3 +18,8 @@ CM画面左上部のworkspaceから、"Security"を選択します。 WAF > WAF 
       :scale: 30%
       :align: center
    |
+
+
+その他、ポリシーの詳細カスタマイズ方法は以下の記事をご確認下さい。
+
+- Customize a WAF Policy <https://clouddocs.f5.com/bigip-next/latest/waf_management/#customize-a-waf-policy>`_
