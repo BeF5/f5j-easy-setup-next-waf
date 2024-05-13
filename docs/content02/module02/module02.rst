@@ -16,15 +16,15 @@ CM画面左上部のworkspaceから、”Security”を選択します。
    |
 
 - Name:
-   - ** dvwa_waf_policy **　（任意の名前）
+   - **dvwa_waf_policy**　（任意の名前）
 
 - Advanced Viewをenableします　（テンプレート選択のため）
 
 - Template:
-   - ** RAPID-Template **
+   - **RAPID-Template**
 
 - Enforcement Mode:
-   - ** Blocking **
+   - **Blocking**
 
 - “Save” をクリックします
 
@@ -80,7 +80,7 @@ CM画面左上部のworkspaceから、"Applications"へ戻ります。先ほど�
 - “Use a WAF Policy” をenableします
 
 - WAF Policy Name:
-   - ** dvwa_waf_policy ** (先ほど作成したWAFポリシー)
+   - **dvwa_waf_policy** (先ほど作成したWAFポリシー)
 
 - “Save” をクリックします
 
