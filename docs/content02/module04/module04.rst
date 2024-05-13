@@ -11,12 +11,11 @@ Response Bodyでブロックページの内容をカスタマイズすること�
 
 
    .. image:: images/Picture1.png
-      :scale: 30%
+      :scale: 20%
       :align: center
    |
 
    .. image:: images/Picture2.png
-      :scale: 30%
       :align: center
    |
 
@@ -24,11 +23,11 @@ Response Bodyでブロックページの内容をカスタマイズすること�
 また、必要に応じて、Response Headersをカスタマイズする（eg. response codeを200から403へ変更など）や、ブロックページを指定URLへRedirectすることも設定可能です。
 
    .. image:: images/Picture3.png
-      :scale: 30%
+      :scale: 20%
       :align: center
    |
 
    .. image:: images/Picture4.png
-      :scale: 30%
+      :scale: 20%
       :align: center
    |
