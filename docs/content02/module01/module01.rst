@@ -93,7 +93,7 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
 “+Add Row” を２回クリックpool memberを作成します。
 
 - Name:
-   - **dvwa_server **
+   - **dvwa_server**
 - IP Address:
    - **10.1.20.101**
 - 入力後、 ”Save” をクリック
