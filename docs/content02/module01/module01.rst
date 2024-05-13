@@ -132,7 +132,19 @@ UDF環境からWindowsクライアントを起動します。
    |   
 
 Chromeブラウザを開き、http://10.1.10.100/DVWA/login.php にアクセスします。
-Username: admin、Password: password でログインし、SQL Injection にアクセスし、User ID に 'or 1=1 # と入力し、SQLインジェクション攻撃をします。(本ガイドからコマンドはコピーしないで下さい。シングルクォーテーションに注意してタイプして下さい。)
+Username: admin、Password: password でログインします。
+
+   .. image:: images/Picture16.png
+      :align: center
+   |       
+
+DVWA Security にアクセスし、Security Level を Low に設定します。
+
+
+   .. image:: images/Picture17.png
+      :align: center
+   |       
+SQL Injection にアクセスし、User ID に 'or 1=1 # と入力し、SQLインジェクション攻撃をします。(本ガイドからコマンドはコピーしないで下さい。シングルクォーテーションに注意してタイプして下さい。)
 
 
    .. image:: images/Picture15.png
