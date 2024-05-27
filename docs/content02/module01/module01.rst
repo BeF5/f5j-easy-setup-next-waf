@@ -8,7 +8,8 @@ UDF画面上部タブの"DEPLOYMENT"をクリックし、BIG-IP Next Central Man
       :align: center
    |
 
-BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示されたら、ユーザ名/パスワードを入力してログインします。
+BIG-IP Next Central Manager GUIのログイン画面が表示されたら、以下のユーザー名/パスワードを入力してログインします。
+
    - ユーザー名/パスワード:
    - **admin/Welcome123!**
 
@@ -17,17 +18,17 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
       :align: center
    |       
 
-ログインすると次のようなホーム画面から"Manage Applications"をクリックします。
+ログインすると、次のようなホーム画面になります。"Manage Applications" > "Go to Application Workspace"をクリックします。
 
    .. image:: images/Picture3.png
-      :scale: 15%
+      :scale: 20%
       :align: center
    |       
 
-“Add Application”をクリックして、新規アプリケーション作成します。
+“Start Adding Apps”をクリックして、新規アプリケーション作成します。
 
    .. image:: images/Picture4.png
-      :scale: 15%
+      :scale: 60%
       :align: center
    |       
 
@@ -35,7 +36,7 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
    - **HTTP-DVWA**　（任意の名前）
 - What kind of Application:
    - **Standard**　を選択
-- **“Start Creating”** を二回クリック
+- **“Start Creating”** を2回クリック
 
 
    .. image:: images/Picture5.png
@@ -54,17 +55,18 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
 - Monitor Type:
    - **http**
 
+
    .. image:: images/Picture6.png
       :scale: 20%
       :align: center
    |       
 
-"Virtual Servers"のtabに戻り、以下内容を入力します。
+"Virtual Servers"のタブに戻り、以下内容を入力します。
 
 - Virtual Server Name:
    - **DVWA-VS**
 - Pool:
-   - **dvwa_pool**　(先ほど作成されましたpoolを選択)
+   - **dvwa_pool**　(先ほど作成されたpoolを選択)
 - **“Review & Deploy”** をクリック
 
    .. image:: images/Picture7.png
@@ -90,7 +92,7 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
       :align: center
    |       
 
-“+Add Row” を２回クリックpool memberを作成します。
+“+Add Row” を1回クリックして、pool memberを作成します。
 
 - Name:
    - **dvwa_server**
@@ -110,6 +112,8 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
       :align: center
    |       
 
+以下の画面で、”Yes, Deploy”をクリックします。
+
    .. image:: images/Picture12.png
       :scale: 80%
       :align: center
@@ -123,28 +127,37 @@ BIG-IP Next CM GUIへのログイン、ログインプロンプトが表示さ�
    |       
 
 
-UDF環境からWindowsクライアントを起動します。
+UDF画面上部タブの"DEPLOYMENT"をクリックし、”windows10 client”の"ACCESS" > "CONSOLE"もしくは”RDP”を選択します。以下のユーザー名とパスワードで、Windowsクライアントにログインします。
+
    - ユーザー名/パスワード:
    - **user/user**
+
+   .. note::
+      セキュリティ上の理由等でRDP (Remote Desktop Protocol)が利用できない場合は、"CONSOLE"を選択してください。
+
 
    .. image:: images/Picture14.png
       :align: center
    |   
 
-Chromeブラウザを開き、http://10.1.10.100/DVWA/login.php にアクセスします。
-Username: admin、Password: password でログインします。
+Windowsクライアント上でChromeブラウザを開き、http://10.1.10.100/DVWA/login.php にアクセスします。DVWAのログイン画面が表示されたら、ユーザ名/パスワードを入力してログインします。
+
+   - Username/Password:
+   - **admin/password**
 
    .. image:: images/Picture16.png
       :align: center
    |       
 
-DVWA Security にアクセスし、Security Level を Low に設定します。
+”DVWA Security”を選択して、Security Level を Low に設定し、”Submit”をクリックします。
 
 
    .. image:: images/Picture17.png
       :align: center
    |       
-SQL Injection にアクセスし、User ID に 'or 1=1 # と入力し、SQLインジェクション攻撃をします。(本ガイドからコマンドはコピーしないで下さい。シングルクォーテーションに注意してタイプして下さい。)
+”SQL Injection”を選択し、User IDに「'or 1=1 #」と入力して、SQLインジェクション攻撃を実行します (本ガイドからコマンドはコピーしないでください。シングルクォーテーションに注意してタイプしてください。)。
+
+SQLインジェクション攻撃が成功し、ユーザー情報を取得できることを確認します。
 
 
    .. image:: images/Picture15.png
