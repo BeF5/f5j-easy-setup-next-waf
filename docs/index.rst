@@ -3,7 +3,7 @@
    contain the root `toctree` directive.
 
 
-F5 BIG-IP Next WAF v20.0 簡単セットアップガイド
+F5 BIG-IP Next WAF v20.2.0 簡単セットアップガイド
 ==============================================
 最終更新日: 2024年5月27日
 
